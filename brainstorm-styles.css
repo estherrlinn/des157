@@ -51,9 +51,9 @@ table {
 /* START */
 
 body {
-  font-family: verdana;
-  align-items: center;
   background-color: #fafafa;
+  font-family: verdana;
+  overflow: scroll;
 }
 
 #container {
@@ -64,6 +64,20 @@ body {
   margin-right: auto;
   text-align: left;
   width: 850px;
+}
+
+section {
+  background-color: white;
+  position: absolute;
+  display: block;
+  margin-top: 20%;
+  padding: 20px;
+  margin-bottom: 10%;
+  border-radius: 20px;
+}
+
+p {
+  line-height: 26px;
 }
 
 header {
@@ -87,6 +101,7 @@ h2 {
   font-size : 24px;
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 nav {
@@ -106,14 +121,13 @@ a:hover {
 }
 
 footer {
-  display: block;
   position: absolute;
-  bottom: 0;
+  display: block;
+  bottom: -100px;
   width: 100%;
   font-size: 14px;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 20px;
 }
 
 ul {
@@ -124,14 +138,4 @@ ul {
 ol {
   margin: 10px;
   padding-top: 10px;
-}
-
-.column {
-  text-align: center;
-  float: left;
-  width: 350px;
-  height: 300px;
-  margin: 20px;
-  padding-top: 5px;
-  border-radius: 20px;
 }
