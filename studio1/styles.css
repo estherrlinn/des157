@@ -1,0 +1,97 @@
+@font-face {
+    font-family: GothamLight;
+    src: url('GothamLight.ttf');
+}
+
+body {
+    background-color: #000;
+    background-image: url("stars.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: auto;
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: white;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+
+header {
+    color:#ffffff;
+    display:block;
+    position:relative;
+    z-index:5;
+}
+
+h1 {
+    font-family: GothamLight;
+    margin-bottom: 0;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-family: GothamLight;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+form {
+    position: relative;
+    padding: 50px;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+img {
+  float: right;
+  margin-right: -40%;
+  margin-top: -15%;
+  background-position: right;
+}
+
+a {
+  color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+
+input[type="text"] {
+    text-align: left;
+    margin: 5px;
+}
+
+input[type="submit"] input[type="reset"] {
+    margin-top: 20px;
+}
+
+.container {
+    width: 500px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#results {
+  margin-top: -40%;
+  margin-left: 30%;
+  width: 500px;
+  height: 500px;
+}
+
+#msg #msg {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #ffffff;
+}
