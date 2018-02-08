@@ -108,14 +108,14 @@
  #phone {
    float: right;
    margin-top: -45%;
-   margin-right: 20%;
+   margin-right: 15%;
  }
 
  #wallet {
    position: relative;
    float: right;
    margin-top: -45%;
-   margin-right: -10%;
+   margin-right: -20%;
  }
  #hydroflaskText, #phoneText, #walletText {
    position: fixed;
