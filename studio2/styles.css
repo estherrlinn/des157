@@ -101,20 +101,20 @@
   }
   #hydroflask {
     float: right;
-    margin-top: -45%;
+    margin-top: -50%;
     margin-right: 40%;
   }
 
  #phone {
    float: right;
-   margin-top: -45%;
+   margin-top: -50%;
    margin-right: 15%;
  }
 
  #wallet {
    position: relative;
    float: right;
-   margin-top: -45%;
+   margin-top: -50%;
    margin-right: -10%;
  }
  #hydroflaskText, #phoneText, #walletText {
