@@ -1,0 +1,132 @@
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+    font-family: helvetica;
+  }
+
+  header {
+    position: relative;
+    font-family: 'Shrikhand', cursive;
+    color: #8E3232;
+    font-size: 1.3em;
+    overflow: auto;
+    text-align: center;
+    top: 10px;
+    margin: 3%;
+  }
+
+  section {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+
+#character1 {
+  position: relative;
+  margin-left: -40%;
+  margin-top: -30px;
+}
+
+  #hydroflask, #phone, #wallet {
+    float: none;
+    position: relative;
+    margin-left: -17%;
+  }
+
+  #phone, #wallet {
+    margin-top: -30%;
+  }
+
+  #hydroflaskText, #phoneText, #walletText {
+    position: fixed;
+    max-width: 100%;
+    max-height: 300px;
+    margin: 5%;
+    top: 60%;
+    right: 2%;
+    background-color: white;
+    border: 3px solid #FFECD5;
+    padding: 10px;
+    display: none;
+  }
+
+  section img {
+    transition: all .2s ease-in-out;
+  }
+
+  section img:hover{
+    transform: scale(1.1);
+  }
+
+  p {
+    display: block;
+  }
+
+
+  footer {
+    width: 100%;
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+@media only screen and (min-width: 768px) {
+  header {
+    position: relative;
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.5em;
+    overflow: auto;
+    text-align: center;
+    top: 10px;
+    margin: auto;
+  }
+
+  .block {
+    display: inline-block;
+    margin-bottom: 10%;
+  }
+
+  #character1 {
+    margin-left: -50%;
+    margin-top: -50px;
+  }
+  #hydroflask {
+    float: right;
+    margin-top: -65%;
+    margin-right: 35%;
+  }
+
+ #phone {
+   float: right;
+   margin-top: -65%;
+   margin-right: 10%;
+ }
+
+ #wallet {
+   position: relative;
+   float: right;
+   margin-top: -65%;
+   margin-right: -15%;
+ }
+ #hydroflaskText, #phoneText, #walletText {
+   position: fixed;
+   max-width: 30%;
+   max-height: 500px;
+   margin: 5%;
+   top: 60%;
+   right: 15%;
+   background-color: white;
+   border: 3px solid #FFECD5;
+   padding: 10px;
+   display: none;
+ }
+}
