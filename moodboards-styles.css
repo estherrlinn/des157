@@ -125,7 +125,7 @@ a:hover {
 footer {
   position: absolute;
   display: block;
-  bottom: -900px;
+  bottom: -1350px;
   width: 100%;
   font-size: 14px;
   text-align: center;
@@ -145,4 +145,5 @@ ol {
 img {
 padding-top: 10px;
 padding-bottom: 10px;
+padding-left: 65px;
 }
