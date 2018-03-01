@@ -108,7 +108,7 @@ a:hover {
 footer {
   display: block;
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
   width: 100%;
   font-size: 14px;
   text-align: center;
