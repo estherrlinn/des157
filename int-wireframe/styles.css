@@ -121,13 +121,13 @@ nav {
   margin: 1%;
 }
 
-
-
-
 footer {
   position: fixed;
   bottom: 3%;
   right: 3%;
   text-align: right;
+}
+
+footer ul {
   list-style: none;
 }
