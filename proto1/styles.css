@@ -1,0 +1,163 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: .7em;
+  width: 97%;
+  margin: auto;
+}
+
+/*----------------HEADER STYLES-----------------*/
+h1 {
+  font-size: 6em;
+  font-weight: 100;
+  margin: -1% 0 -1.5% 0;
+}
+
+.page-h1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  margin-top: 2.5%
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+  letter-spacing: .05em;
+}
+
+h4 {
+  font-size: 1.7em;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+/*----------------NAV STYLES-----------------*/
+nav {
+  top: 3%;
+}
+
+#nav-bar {
+  background-color: white;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+
+}
+
+#nav-left {
+  font-size: 1.3em;
+  position: absolute;
+  text-align: left;
+  width: 30%;
+}
+
+#nav-left a {
+  margin-right: 7%;
+}
+
+#nav-right {
+  font-size: 1.3em;
+  position: absolute;
+  text-align: right;
+  right: 3%;
+}
+
+#discover-nav {
+  font-size: 2.4em;
+  position: absolute;
+  right: 4.6%;
+  top: 14.5%;
+  width: 40%;
+}
+
+#discover-nav p {
+  float: left;
+  margin-left: 15%;
+  text-align: right;
+}
+
+
+/*----------------INDEX STYLES-----------------*/
+#spotlight {
+  background-color: #F0F2BA;
+  padding-bottom: 36.5%;
+}
+
+#spotlight-text {
+  text-align: right;
+  margin-top: 10%;
+  width: 70%;
+  position: absolute;
+  right: 45%;
+}
+
+#spotlight-img {
+  width: 35%;
+  margin: auto;
+  position: absolute;
+  right: 10%;
+  top: 5.5%;
+}
+
+/*----------------DISCOVER STYLES-----------------*/
+#discover img {
+  width: 320px;
+  margin-bottom: 3%;
+}
+
+.work-grid {
+  display: flex;
+  justify-content: center;
+}
+
+#work-grid1 {
+  margin-top: 17%;
+}
+
+#work-grid2 {
+  margin-top: 1%;
+}
+
+.work-group {
+  display: inline-block;
+  margin: 1%;
+}
+
+/*----------------INDIVIDUAL WORK STYLES-----------------*/
+
+
+/*----------------COMMUNITY STYLES-----------------*/
+#community-text {
+  text-align: left;
+  margin-top: 7%;
+  width: 70%;
+  position: absolute;
+  left: 5%;
+}
+
+
+/*----------------MAP------------------*/
+#mapid {
+  position: absolute;
+    height: 500px;
+    width: 1375px;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+footer {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  text-align: right;
+  list-style: none;
+}
