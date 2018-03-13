@@ -1,0 +1,500 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 97%;
+  margin: auto;
+}
+
+/*----------------HEADER STYLES-----------------*/
+
+h1 {
+  font-size: 5.5em;
+  font-weight: 100;
+  margin: -1% 0 -1.5% 0;
+}
+
+.page-h1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  margin: 2.5% 10% 0 0;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+  letter-spacing: .05em;
+}
+
+h4 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.about-h4 {
+  margin: 2% 10% 0 9%;
+}
+
+p {
+  font-size: .9em;
+}
+
+/*----------------NAV STYLES-----------------*/
+
+nav {
+  top: 3%;
+}
+
+#nav-bar {
+  background-color: white;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: .8em;
+}
+
+#nav-left {
+  position: absolute;
+  text-align: left;
+  width: 30%;
+}
+
+#nav-left a {
+  margin-right: 7%;
+}
+
+#nav-right {
+  position: absolute;
+  text-align: right;
+  right: 3%;
+}
+
+#discover-nav {
+  font-size: 2em;
+  position: absolute;
+  left: 43%;
+  top: 22.7%;
+  width: 40%;
+}
+
+#discover-nav a {
+  margin-right: 13%;
+  text-align: right;
+  color: black;
+}
+
+/*----------------INDEX STYLES-----------------*/
+
+#spotlight {
+  background-color: #eeadaf;
+  padding-bottom: 37.2%;
+}
+
+#spotlight-text {
+  text-align: right;
+  margin-top: 10%;
+  width: 70%;
+  position: absolute;
+  right: 45%;
+}
+
+#spotlight-img {
+  width: 35%;
+  margin: auto;
+  position: absolute;
+  right: 10%;
+  top: 5.5%;
+}
+
+.spotlight-about {
+  width: 30%;
+  margin: 3% 0 0 10%;
+  display: block;
+  float: left;
+}
+
+.spotlight-about p {
+  width: 95%;
+  margin-bottom: 0%;
+}
+
+.spotlight-about a {
+  font-size: .9em;
+  display: block;
+}
+
+.spotlight-work {
+  margin: 3% 10% 2% 5%;
+  float: left;
+  width: 45%;
+}
+
+.spotlight-work-1, .spotlight-work-2, .spotlight-work-4, .spotlight-work-5 {
+  float: left;
+  width: 50%;
+}
+
+.spotlight-work-1 img, .spotlight-work-2 img, .spotlight-work-4 img, .spotlight-work-5 img {
+  margin: 3%;
+  width: 92%;
+}
+
+.spotlight-work-row-1:after .spotlight-work-row-2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*----------------DISCOVER STYLES-----------------*/
+
+#discover img {
+  width: 320px;
+  margin-bottom: 3%;
+}
+
+.work-grid, .people-grid {
+  display: flex;
+  justify-content: center;
+}
+
+#work-grid1, #people-grid1 {
+  margin-top: 17%;
+}
+
+#work-grid2, #people-grid2 {
+  margin-top: 1%;
+}
+
+.work-group, .people-group {
+  display: inline-block;
+  margin: 1%;
+}
+
+/*----------------INDIVIDUAL WORK STYLES-----------------*/
+
+.work-img-row {
+  display: flex;
+}
+
+.work-img-column {
+  flex: 50%;
+  float: left;
+  width: 25%;
+  margin: 3% 0 0 5%;
+}
+
+.work-img-column img {
+  width: 93%;
+}
+
+.work-info {
+  width: 85%;
+}
+
+.work-img-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.work-info h3 {
+  margin: 5% 0 1.5% 0;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 1% 0 1% 0;
+}
+
+.work-info p {
+  margin-top: 4%;
+  font-size: 0.8em;
+  margin-right: 10%;
+  line-height: 2;
+}
+
+/* related work */
+
+.related-row {
+  margin: 0 5% 0 5%;
+}
+
+.related-work h3 {
+  margin-left: 5%;
+}
+
+.related-img1, .related-img2, .related-img3 {
+  float: left;
+  width: 33.33%;
+}
+
+.related-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.related-img1 img, .related-img2 img, .related-img3 img {
+  width: 90%;
+}
+
+/*----------------ABOUT STYLES-----------------*/
+
+.about-row {
+  width: 81.5%;
+  margin: auto;
+}
+
+#mission-statement {
+  margin-top: 15%
+}
+
+#who-we-are aside {
+  width: 50%;
+  float: left;
+  margin: 0;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-row img {
+  width: 95%;
+}
+
+/*----------------SIGN UP STYLES-----------------*/
+
+* {
+  box-sizing: border-box
+}
+
+/* Full-width input fields */
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+button.signup {
+  width: 50%;
+}
+
+/* Add padding to container elements */
+
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  /* overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 0 auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%;
+  /* Could be more or less, depending on screen size */
+}
+
+/*
+.w3-animate-zoom {
+  animation-name: animatezoom 0.6s;
+} */
+
+/* Style the horizontal ruler */
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover, .close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+/*----------------PROFILE STYLES-----------------*/
+
+.about-artist {
+  width: 30%;
+  margin: 15% 0 0 10%;
+  display: block;
+  float: left;
+}
+
+.about-artist p {
+  width: 95%;
+  margin-bottom: 0%;
+}
+
+.about-artist a {
+  font-size: .9em;
+  display: block;
+}
+
+.profile-work {
+  margin: 15% 10% 2% 5%;
+  float: left;
+  width: 45%;
+}
+
+.profile-work-1, .profile-work-2, .profile-work-3, .profile-work-4, .profile-work-5, .profile-work-6, .profile-work-7, .profile-work-8, .profile-work-9 {
+  float: left;
+  width: 33.33%;
+  margin-top: 5%;
+}
+
+.profile-work-1 img, .profile-work-2 img, .profile-work-3 img, .profile-work-4 img, .profile-work-5 img, .profile-work-6 img, .profile-work-7 img, .profile-work-8 img, .profile-work-9 img {
+  margin: 3%;
+  width: 92%;
+}
+
+.profile-work-row-1:after .profile-work-row-2:after, .profile-work-row-3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.profile-work p {
+  margin: 0 0 0% 2.5%;
+}
+
+.like-button {
+  margin-bottom: 7%;
+  font-weight: bold;
+  color: gray;
+}
+
+/*----------------COMMUNITY STYLES-----------------*/
+
+#community h2 {
+  width: 81.5%;
+  margin: auto;
+  margin-top: 15%;
+}
+
+/*----------------MAP------------------*/
+
+#mapid {
+  position: absolute;
+  height: 70%;
+  width: 97%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+footer {
+  font-size: .8em;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  text-align: right;
+  list-style: none;
+}
+
+footer ul {
+  list-style: none;
+}
