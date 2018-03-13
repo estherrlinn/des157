@@ -258,9 +258,9 @@ h5 {
 }
 
 #who-we-are aside {
-  width: 50%;
+  width: 48%;
   float: left;
-  margin: 0;
+  margin: 0 2% 0 0;
 }
 
 /* Clear floats after the columns */
@@ -432,6 +432,10 @@ hr {
 .about-artist a {
   font-size: .9em;
   display: block;
+}
+
+.about-artist img {
+  width: 100%;
 }
 
 .profile-work {
