@@ -113,13 +113,11 @@ window.onclick = function(event) {
 function read_more() {
     document.getElementById('hidden-first').style.display = 'block';
 }
-
 document.getElementById('read-more').addEventListener('click', read_more);
 
-
 //LIKE BUTTON
-    var like1 = document.getElementById('like-button-1');
+var like1 = document.getElementById('like-button-1');
 
-    like1.addEventListener('click', function(){
-      like1.style.color="red";
-    })
+like1.addEventListener('click', function(){
+  like1.style.color="red";
+})
