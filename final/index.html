@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Final Project</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+
+<body>
+  <img class="logo-class" id="logo" src="photos/logo.png" alt="logo">
+  <div id="nav-bar">
+    <nav id="nav-left">
+      <a href="index.html">Home</a>
+      <a href="discover-work.html">Discover</a>
+      <a href="community.html">Community</a>
+      <a href="about.html">About</a>
+    </nav>
+    <nav id="nav-right">
+      <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+    </nav>
+  </div>
+
+
+  <main>
+    <section id="spotlight">
+      <div id="spotlight-text">
+        <h3 class="animated fadeInDown">THIS WEEK'S DESIGNER SPOTLIGHT:</h3>
+        <h1 class="animated fadeInLeft">Laetitia Ky</h1>
+        <h2 class="animated slideInUp">"Ivorian Goddess and Polyvalent Artist"</h2>
+      </div>
+      <img class="animated fadeInRight" id="spotlight-img" src="photos/spotlight.png" alt="spotlight image">
+    </section>
+
+    <aside class="spotlight-about">
+      <h2>Introducing Laetitia</h2>
+      <p>Laetitia KY’s Instagram is stunning—that much is obvious from the moment you see it. What might take you a second longer to realize is that KY's art is also a major beauty feat, and one that sends a powerful message.</p>
+<div id="hidden-first">
+    <p>KY, who lives in Ivory Coast, started creating art with her hair a little over a year ago and already her account has over 48,000 followers. KY says ideas come to her like a flash, in a very intuitive way, and then she creates her art using simple materials like thread, needles, wire, wool, hair extensions, and of course, herself. “In fact, I’m an integral part of the art itself,” KY tells ELLE.com, over email. “It’s part of the concept. Maybe down the road I will do it on a certain person. But if I advocate love and self-esteem, self-confidence, [then I can] inspire other black women to be proud of their entire heritage aesthetic.” Her Instagrams range in emotion and topic, from a playful light bulb to a pistol meant to symbolize her opposition to gun violence.</p>
+
+<br>
+<a href="https://www.elle.com/culture/art-design/a13958086/laetitia-ky-me-too-hair-art-instagram/">Source: "Instagram Artist Laetitia KY Makes Powerful Art With Her Hair"</a>
+      <p><span style="font-weight:bold">Follow Laetitia on Instagram:</span></p>
+      <a href="https://www.instagram.com/LaetitiaKy/">Instagram</a>
+    </div><br />
+<a href="#" id="read-more">Read More >></a>
+    </aside>
+
+    <section class="spotlight-work">
+      <h2>Work</h2>
+      <div class="spotlight-work-grid">
+        <div class="spotlight-work-row-1">
+          <div class="spotlight-work-1">
+            <img src="photos/laetitia-1.png" alt="laetitia work 1">
+          </div>
+          <div class="spotlight-work-2">
+            <img src="photos/laetitia-2.png" alt="laetitia work 2">
+          </div>
+        </div>
+
+        <div class="spotlight-work-row-2">
+          <div class="spotlight-work-4">
+            <img src="photos/laetitia-3.png" alt="laetitia work 3">
+          </div>
+          <div class="spotlight-work-5">
+            <img src="photos/laetitia-5.png" alt="laetitia work 5">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="signup">
+      <div id="id01" class="modal">
+          <form class="modal-content w3-animate-zoom" action="profile.html">
+              <div class="container">
+                  <h1>Sign Up</h1>
+                  <p>Please fill in this form to create an account.</p>
+                  <hr>
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" id="email" placeholder="Enter Email" name="email"  required>
+
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" id="psw" placeholder="Enter Password" name="psw" required>
+
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" id="psw-repeat" placeholder="Repeat Password" name="psw-repeat" required>
+
+                  <div class="clearfix">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                      <button type="submit" class="signup">Sign Up</button>
+                  </div>
+              </div>
+          </form>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div id=validation>
+      <ul>
+        <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcicheung.github.io%2Fdes157%2Fuserflow.html">Valid HTML 5</a></li>
+        <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcicheung.github.io%2Fdes157%2Fuserflow.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Valid CSS</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src='script.js' type="text/javascript"></script>
+
+</body>
+
+</html>
